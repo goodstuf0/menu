@@ -1,0 +1,71 @@
+body {
+    background:url("/menu.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 100vh;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+
+    background-color: rgba(201, 190, 214, 0.719);
+    border-radius: 8px;
+    padding: 20px;
+    margin:auto;
+}
+.b1{
+    color: rgb(32, 32, 80);
+    font-size: 35px;
+    font-family: "Caveat", cursive;   
+}
+li{
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+}
+
+.siparis{
+    display: inline-block;
+    box-shadow: 10px 10px rgba(114, 25, 25, 0.747);
+}
+.anayemek{
+    background-color: rgba(53, 33, 128, 0.226);
+    border-radius: 6px;
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.267);
+    
+}
+.corbalar{
+    background-color: rgba(95, 158, 160, 0.61);
+    border-radius: 6px;
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.267);
+}
+.tatlı{
+    background-color: rgba(228, 115, 86, 0.61);
+    border-radius: 6px;
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.267);
+}
+.icecek{
+    background-color: rgba(124, 139, 130, 0.61);
+    border-radius: 6px;
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.267);
+}
+.btn{
+    padding: 10px;
+    border: none;
+    background-color: rgba(58, 48, 143, 0.623);
+    margin-left: 750px;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+/* ÖDEV */
+/* 1-Menü içeriğinin fontlarını değiştirin
+2-Menü başlıklarını divler içine alın ve hepsine farklı background-color yapın.
+3-box-shadow ekleyin bu divlere
+4-Bu divler arasına 8px boşuklar bırakın. */
+/* 5-Sayfanın sonuna yemek sipariş ver  butonu ekle */
